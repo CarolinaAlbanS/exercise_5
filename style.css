@@ -67,7 +67,8 @@ $font_jost: "font-family: Jost" sans-serif;*/
   margin: 10px;
 }
 .superior-titulo {
-  color: aquamarine;
+  color: black;
+  font-family: "Poppins", sans-serif;
 }
 .superior-boton {
   width: 100px;
@@ -88,10 +89,15 @@ $font_jost: "font-family: Jost" sans-serif;*/
 }
 
 .series {
+  border-bottom: 1px solid grey;
   width: 100px;
   height: 100px;
   border: 0px;
   margin-top: 20px;
+}
+
+.clases {
+  display: flex;
 }
 
 /*@import url("https://fonts.googleapis.com/css2?family=Public+Sans&display=swap");
