@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  background-image: url(https://cochesnuevos.autofacil.es/img/BMW_I4-2022.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 800px;
+
+}
+.imagen{
+  margin-top: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  height: 100px;
+  width: 800px;
+  border: 0px;
+  border-bottom: 1px solid black;
+
+  &-nav {
+    text-decoration: none;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    border-radius: 3px;
+
+    &__enlace {
+      text-decoration: none;
+      margin: 10px;
+      color: white;
+    }
+  }
+  &-imagen {
+    margin: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  &-iconos {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+
+    &__imagenes {
+      margin: 10px;
+    }
+  }
+}

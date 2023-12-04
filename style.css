@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  background-image: url(https://cochesnuevos.autofacil.es/img/BMW_I4-2022.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 800px;
+}
+
+.imagen {
+  margin-top: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  height: 100px;
+  width: 800px;
+  border: 0px;
+  border-bottom: 1px solid black;
+}
+.header-nav {
+  text-decoration: none;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px;
+  border-radius: 3px;
+}
+.header-nav__enlace {
+  text-decoration: none;
+  margin: 10px;
+  color: white;
+}
+.header-imagen {
+  margin: 10px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.header-iconos {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.header-iconos__imagenes {
+  margin: 10px;
+}
+
+/*@import url("https://fonts.googleapis.com/css2?family=Public+Sans&display=swap");
+
+/*$font_public: 'Public Sans' sans-serif;*/
+/*@import url("https://fonts.googleapis.com/css2?family=Jost&family=Public+Sans&family=Roboto:wght@300;500&display=swap");
+
+$font_jost: "font-family: Jost" sans-serif;*/
+.superior {
+  margin: 10px;
+}
+.superior-titulo {
+  color: aquamarine;
+}
+.superior-boton {
+  width: 100px;
+  height: 30px;
+  border-block-color: initial;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  background-color: rgb(67, 67, 190);
+  text-decoration: none;
+}
+.superior-boton__enlace {
+  text-decoration: none;
+  align-content: center;
+  color: white;
+  margin-top: 50px;
+  margin-left: 10px;
+}
+
+.series {
+  width: 100px;
+  height: 100px;
+  border: 0px;
+  margin-top: 20px;
+}
+
+/*@import url("https://fonts.googleapis.com/css2?family=Public+Sans&display=swap");
+
+/*$font_public: 'Public Sans' sans-serif;*/
+/*@import url("https://fonts.googleapis.com/css2?family=Jost&family=Public+Sans&family=Roboto:wght@300;500&display=swap");
+
+$font_jost: "font-family: Jost" sans-serif;*//*# sourceMappingURL=style.css.map */
