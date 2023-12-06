@@ -88,16 +88,118 @@ $font_jost: "font-family: Jost" sans-serif;*/
   margin-left: 10px;
 }
 
-.series {
+.cuerpo {
+  display: grid;
+  place-items: center;
+}
+.cuerpo-series {
   border-bottom: 1px solid grey;
   width: 100px;
   height: 100px;
   border: 0px;
   margin-top: 20px;
 }
-
-.clases {
+.cuerpo-clases {
   display: flex;
+  width: 1000px;
+  margin: 0px;
+  margin-bottom: 30px;
+  padding: 10px;
+  padding-bottom: 0px;
+  justify-content: space-around;
+  border: none;
+  color: rgb(190, 190, 190);
+  border-bottom: 3px solid rgb(190, 190, 190);
+  align-items: center;
+}
+.cuerpo-parrafo {
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+  width: 1000px;
+  margin: 20px;
+  margin-bottom: 0px;
+  padding: 10px;
+  padding-bottom: 0px;
+  justify-content: space-around;
+  border: none;
+  color: rgb(190, 190, 190);
+  border-bottom: 3px solid rgb(190, 190, 190);
+  align-items: center;
+}
+.cuerpo-parrafo__principal {
+  width: 20px;
+  height: 20px;
+  border: 1px 1px 1px 1px solid black;
+  background-color: aqua;
+}
+
+.coches {
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.coches-img {
+  width: 200px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 0px;
+  padding: 10px;
+}
+.coches-img__enlaces a {
+  color: black;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+}
+
+.articulos {
+  width: 1000px;
+  height: 250px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.articulos-imgenes {
+  width: 210px;
+  padding: 10px;
+  border: solid rgb(190, 190, 190);
+}
+.articulos-imgenes img {
+  width: 100%;
+}
+
+.videos {
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  height: 330px;
+}
+.videos-imagenes {
+  padding: 10px;
+  border: solid rgb(209, 211, 209);
+}
+
+.iconos {
+  width: 1000px;
+  display: flex;
+  margin: 80px;
+  justify-content: space-between;
+}
+.iconos-imagenes {
+  width: 240px;
+  height: 110px;
+  background-color: rgb(242, 243, 242);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 /*@import url("https://fonts.googleapis.com/css2?family=Public+Sans&display=swap");
